@@ -1,0 +1,66 @@
+body {
+    height: 2000px;
+    background-color: white;
+    margin:0 auto;
+    text-align: center;
+}
+
+#ads {
+    background-color: black;
+    height: 20px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#second-div {
+    background-color: white;
+    height: 150px;
+    border-block-end-color: black;
+    margin-bottom:0;
+}
+
+#second-div img {
+    width: 150px;
+    height: 150px;
+    float: left;  
+}
+
+#second-div div{
+    height:50px;
+    margin-left:150px;
+    margin-top:50xp;
+    background-color: lightskyblue;
+    padding-top: 50px;    
+}
+
+#second-div a {
+    font-size: 18px;    
+    color: black;
+    font-weight: bold;
+    word-spacing: 5px;
+    font-family: arial;
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+}
+    
+#third-div {
+    height: 350px;
+    background-color: white;
+    margin-top:0 auto;
+    border: 1px solid black;
+}
+
+#third-div video {
+    float: left;
+    height: 350px;
+}
+
+#third-div h2, h3 {
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.7;
+}
