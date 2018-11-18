@@ -1,66 +1,106 @@
 body {
-    height: 2000px;
-    background-color: white;
+    height: 3000px;
     margin:0 auto;
     text-align: center;
 }
 
-#ads {
+#top-ads, .redbold {
     background-color: black;
     height: 20px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     padding: 10px;
-    font-size: 15px;
+    font-size: 16px;
+    position: relative;
+}
+a.redbold {
+    color: red;
+    font-weight: bold;
 }
 
-#second-div {
+#menu {
     background-color: white;
     height: 150px;
-    border-block-end-color: black;
     margin-bottom:0;
+    margin-top:0;
+    padding-top: 30px;
+    position: relative;
 }
-
-#second-div img {
+#menu img {
     width: 150px;
     height: 150px;
     float: left;  
+    position: relative;
+    padding-bottom: 10px;
 }
-
-#second-div div{
-    height:50px;
+#menu div{
+    height:30px;
     margin-left:150px;
-    margin-top:50xp;
-    background-color: lightskyblue;
-    padding-top: 50px;    
+    margin-top:100xp;
+    background-color: black;
+    padding-top: 10px; 
+    position: relative;
 }
-
-#second-div a {
+#menu a {
     font-size: 18px;    
-    color: black;
+    color: white;
     font-weight: bold;
     word-spacing: 5px;
     font-family: arial;
     text-decoration: none;
-    background-color: white;
+    background-color: black;
     text-align: center;
+    position: relative;
 }
-    
-#third-div {
-    height: 350px;
-    background-color: white;
+#body1, #body2 {
+    height: 800px;
+    background-color: whitesmoke;
     margin-top:0 auto;
-    border: 1px solid black;
+    position: relative;
 }
-
-#third-div video {
-    float: left;
-    height: 350px;
+#body1 img, #body2 img {
+    width: auto;
+    height: 420px;
+    float: center; 
+    position: relative;
 }
-
-#third-div h2, h3 {
+#body1 h2, h3 {
     font-family: arial;
     text-align: center;
     padding: 10px;
     line-height: 1.7;
+    position: relative;
+}
+#body3 {
+    height: 400px;
+    background-color: white;
+    margin-top:0 auto;
+    position: relative;
+}
+#body3 video {
+    float: center;
+    height: 350px;
+    position: relative;
+}
+#body4 {
+    height: 300px;
+    background-color: lightskyblue;
+    margin-top:0 auto;
+}
+table.footer {
+    width: 100%;
+    border-color: white;
+    position: center;
+    padding: 50px;
+}
+.footer tr, th, td {
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td img {
+    width: auto;
+    height: 50px;
+    
 }
