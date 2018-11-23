@@ -3,17 +3,30 @@ body {
     margin:0;
 }
 
-#main_and_top {
+#main_and_top_div {
     height: 150px;
-    background-color:white;
+    background-color: whitesmoke;
     position: fixed;
     top: 0;
     width: 100%;
 }
-
-#main_and_top img {
-    height : 150px;
+ 
+#main_and_top_div img {
+    height : 130px;
     weight : 100%;
+    margin-top: 0px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: -1;
+    
+} 
+
+#main_and_top_div h1 {
+    font-size: 40px;
+    font-family: Apple Chancery;
+    margin-top: 40px;
+    text-align: center;
 }
 
 #top_ads_box {
