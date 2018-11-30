@@ -19,24 +19,21 @@ body {
     position: absolute;
     top: 0px;
     z-index: -1;
-    background-image: url ("./organic1.jpg");
+    background-image: url ('organic1.jpg');
     background-size: cover;
     background-position: center;    
 } 
- 
 #main_and_top_div h1 {
     font-size: 40px;
     font-family: Apple Chancery;
     margin-top: 40px;
     text-align: center;
 }
-
 #top_ads_box {
     background-color: black;
-    height: 17px;
-    width: auto;
-    padding: 6px;
-    opacity: 0.8;
+    height: 20px;
+    padding: 4px;
+    
     text-align: center;
     position: fixed;
     top: 0;
@@ -44,63 +41,90 @@ body {
 }
 #top_ads_box a {
     color: whitesmoke;
-    font-size: 14px;
-    font-weight: normal;   
+    font-size: 17px;
+    font-weight: normal; 
+    word-spacing: 3px;  
 }
-
 #menu_box {
-    height:30px;
+    height:40px;
     background-color: black;
     margin-top: 60px;
-    text-align: center;
+    text-align: left;
     position: fixed;
     top: 50px;
     width: 100%;
-    overflow: hidden;
-    padding-top: 10px; 
-    z-index: 5;
+    padding-left: 50px;
+    opacity: 0.9;
+    border: 1px solid white;
 }
-#menu_box a {
+#menu_box ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+}
+#menu_box ul li {
+    float: left;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
     font-size: 18px;    
-    font-weight: bold;
-    word-spacing: 0px;
+}
+#menu_box ul li a {
     font-family: arial;
+    color: white;
     text-decoration: none;
-    display: inline;
-    color: #f2f2f2;      
-    border-right: white solid;
-    word-spacing: 5px;
-    z-index: 5;
+    display: block;
+    border: 1px solid white;
+    text-shadow: 2px 2px 2px black;
 }
-#menu_box a:hover {
-    background-color: #ddd;
-    color: black;
+#menu_box ul li a:hover {
+    background-color: green;
 }
-
+#menu_box ul li ul li {
+    display: none;
+    border-radius: 4px;
+}
+#menu_box ul li:hover ul li {
+    display: block;
+}
 
 #section2 #body1, #body2 {
     height: 600px;
     background-color: whitesmoke;
     margin-top: 200px;
 }
-
 #body1 img, #body2 img {
     margin-top: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
-    width: auto;
-    
+    width: auto;    
 }
-#body1 h2, h3 {
+#body1 h2 {
     font-family: arial;
     text-align: center;
     padding: 10px;
     line-height: 1.7;
     margin-top: 20px;
 }
-#body2 h2, h3 {
+#body1 h3 {
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+#body2 h2 {
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.7;
+}
+#body2 h3 {
     font-family: arial;
     text-align: center;
     padding: 10px;
@@ -126,27 +150,26 @@ body {
 table {
     width: 60%;
     border: 2px solid white;
-    position: center;
     margin-top:0px;
     position: absolute;
     top: 2260px;
     left: 100px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
 }
 
-.tab tr td {
-    font-size: 30px;
-    text-align: center;
-    
-}
 #body4-footer form {
-    font-size: 14px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     color: black;
     font-weight: bold;
     position: absolute;
-    top: 2150px;
+    top: 2170px;
     right: 150px;
+    line-height: 18px;
 }
 h3 {
     text-align: left;
@@ -154,4 +177,10 @@ h3 {
 td img {
     width: 30px;
     height: 30px;
+    margin-right: 20px;
+}
+
+td img:hover {
+    background-color: #ddd;
+    color: black;
 }
