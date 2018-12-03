@@ -1,8 +1,15 @@
+/*********************** begining body setting *************************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     height: 2200px;
     margin:0;
 }
+/****************************** finishing body setting ************************8**/
 
+/***************************** begining main header setting *************************/
 #main_and_top_div {
     height: 150px;
     background-color: whitesmoke;
@@ -10,7 +17,6 @@ body {
     top: 0;
     width: 100%;
 }
- 
 #main_and_top_div img {
     height : 150px;
     width : auto;
@@ -44,6 +50,7 @@ body {
     font-size: 17px;
     font-weight: normal; 
     word-spacing: 3px;  
+    text-shadow: 2px 2px 2px rgb(252, 2, 2);
 }
 #menu_box {
     height:40px;
@@ -53,7 +60,7 @@ body {
     position: fixed;
     top: 50px;
     width: 100%;
-    padding-left: 50px;
+    padding-left: 0px;
     opacity: 0.9;
     border: 1px solid white;
 }
@@ -78,7 +85,7 @@ body {
     text-decoration: none;
     display: block;
     border: 1px solid white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px rgb(241, 25, 231);
 }
 #menu_box ul li a:hover {
     background-color: green;
@@ -90,6 +97,7 @@ body {
 #menu_box ul li:hover ul li {
     display: block;
 }
+/*********************** finishing main header setting ************************/
 
 #section2 #body1, #body2 {
     height: 600px;
@@ -152,7 +160,9 @@ body {
     background-color: skyblue;
     margin-top: 150px;
 }
-#footer-menubox, #social-icon, #resister {
+
+/**************** begining footer setting ***************************/
+#footer-menubox, #social-icon, #register {
     display: inline-block;    
 }
 #footer-menubox {
@@ -201,12 +211,12 @@ body {
 #social-icon ul li a i {
     line-height: 50px;
 }
-#resister {
-    width: auto;
+#register {
+    width: 200px;
     height: auto;
     margin-left: 100px;
 }
-#resister h3 {
+#register h3 {
     font-family: arial;
     font-size: 20px; 
     color: black; 
@@ -214,7 +224,7 @@ body {
     line-height: 30px;
     text-align: left;
 }
-#resister label {
+#register label {
     font-family: arial;
     font-size: 18px; 
     color: black; 
@@ -222,3 +232,4 @@ body {
     line-height: 19px;
     text-align: left;
 }
+/********************* finishing footer setting ************************/
