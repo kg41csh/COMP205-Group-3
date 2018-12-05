@@ -99,7 +99,7 @@ body {
 /*********************** finishing main header setting ************************/
 
 /*********************** begining body setting ************************/
-#link1-body1, #link1-body1-1, #link1-body2, #link1-body2-1, #link1-body3, #link1-body3-1  {
+#link1-body1, #link1-body1-1  {
     display: inline-block;
 }
 #link1-body1 {
@@ -121,6 +121,9 @@ body {
     text-align: left;
     padding-top: 40px;
 }
+#link1-body2, #link1-body2-1 {
+    display: inline-block;
+}
 #link1-body2 {
     margin-top: 20px;
     margin-left: 200px;    
@@ -141,24 +144,26 @@ body {
     height: auto;
     padding-left: 0px;
 }
+#link1-body3, #link1-body3-1  {
+    display: inline-block;
+}
 #link1-body3 {
-    margin-top: 200px;
-    margin-left: 200px;    
+    margin-top: 60px;
+    margin-left: 200px;   
     width: 500px;
     height: 320px;
 }
 #link1-body3 img {
-    width: 250px;
+    width: 450px;
     height: auto;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 #link1-body3-1 {
-    margin-top: 200px;
+    margin-top: 60px;
     margin-left: 50px;
-    width: 500px;
-    height: 320px;
+    width: 480px;
+    height: 280px;
     text-align: left;
-    background-color: blue;
     padding-top: 40px;
 }
 
