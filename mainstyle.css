@@ -16,6 +16,11 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    background-image: url("./organic1.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    opacity: 0.9;
 }
 #top_ads_box {
     background-color: black;
@@ -33,18 +38,6 @@ body {
     word-spacing: 3px;  
     text-shadow: 2px 2px 2px rgb(252, 2, 2);
 }
-
-#organic_box img {
-    height :120px;
-    width : auto;
-    padding-top: 0px;
-    padding-left: 80px;     
-    position: fixed;
-    top: 20px;
-    z-index: -2;
-    
-} 
-
 #main_and_top_div h1 {
     font-size: 40px;
     margin-top: 40px;
@@ -59,7 +52,6 @@ body {
     top: 50px;
     width: 100%;
     padding-left: 0px;
-    opacity: 0.9;
     border: 1px solid white;
 }
 #menu_box ul {
@@ -178,9 +170,9 @@ body {
 #body4-footer {
     width: 100%;
     margin: 100px 0px 0px auto;
-    background-color: grey;
+    background-color: rgb(168, 167, 167);
     text-align: center;
-    opacity: 0.8;
+    z-index: -4;
 }
 #footer-menubox, #register-box {
     display: inline-block;       
@@ -203,7 +195,6 @@ body {
 #footer-menubox ul li a:hover {
     background-color: white;
 }
-
 #register-box h3 {
     font-family: arial;
     font-size: 20px; 
