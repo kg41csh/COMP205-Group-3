@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body {
-    height: 3000px;
+    height: 2200px;
     margin:0;
 }
 /****************************** finishing body setting ************************8**/
@@ -154,7 +154,7 @@ body {
     height: 320px;
 }
 #link1-body3 img {
-    width: 450px;
+    width: 350px;
     height: auto;
     padding-left: 20px;
 }
@@ -166,15 +166,35 @@ body {
     text-align: left;
     padding-top: 40px;
 }
-
-
+#link1-body4, #link1-body4-1  {
+    display: inline-block;
+}
+#link1-body4 {
+    margin-top: 60px;
+    margin-left: 200px;   
+    width: 500px;
+    height: 300px;    
+    padding-top: 40px;
+}
+#link1-body4-1 {
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 480px;
+    height: 350px;
+    text-align: left;    
+}
+#link1-body4-1 img {
+    width: 450px;
+    height: auto;
+    padding-left: 20px;
+}
 
 
 /**************** begining footer setting ***************************/
 #body4-footer {
-    height: 350px;
+   
     width: 100%;
-    background-color: skyblue;
+    background-color: gainsboro;
     margin-top: 150px;
 }
 #footer-menubox, #social-icon, #register {

@@ -4,7 +4,7 @@
     padding: 0px;
 }
 body {
-    height: 2200px;
+    height: auto;
     margin:0;
 }
 /****************************** finishing body setting ************************8**/
@@ -17,29 +17,10 @@ body {
     top: 0;
     width: 100%;
 }
-#main_and_top_div img {
-    height : 150px;
-    width : auto;
-    margin-top: 2px;
-    padding-left: 80px;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-    background-image: url ('organic1.jpg');
-    background-size: cover;
-    background-position: center;    
-} 
-#main_and_top_div h1 {
-    font-size: 40px;
-    font-family: Apple Chancery;
-    margin-top: 40px;
-    text-align: center;
-}
 #top_ads_box {
     background-color: black;
     height: 20px;
-    padding: 4px;
-    
+    padding: 4px;    
     text-align: center;
     position: fixed;
     top: 0;
@@ -51,6 +32,23 @@ body {
     font-weight: normal; 
     word-spacing: 3px;  
     text-shadow: 2px 2px 2px rgb(252, 2, 2);
+}
+
+#organic_box img {
+    height :120px;
+    width : auto;
+    padding-top: 0px;
+    padding-left: 80px;     
+    position: fixed;
+    top: 20px;
+    z-index: -2;
+    
+} 
+
+#main_and_top_div h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
 }
 #menu_box {
     height:40px;
@@ -100,42 +98,64 @@ body {
 /*********************** finishing main header setting ************************/
 
 #section2 #body1, #body2 {
-    height: 600px;
-    background-color: whitesmoke;
-    margin-top: 200px;
+    height: 800px;
+    margin-top: 200px;    
 }
-#body1 img, #body2 img {
-    margin-top: 200px;
+#body1-1 {
+    height: 350px;
+    width: 100%;
+}
+#body1-2 {
+    height: 350px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;    
+    overflow: scroll;
+}
+#body1-1 img, #body2-1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
+    height: 350px;
     width: auto;    
 }
-#body1 h2 {
+#body1-2 h2 {
+    font-family: arial;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 30px;
+}
+#body1-2 h3 {
     font-family: arial;
     text-align: center;
     padding: 10px;
     line-height: 1.7;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;    
+    text-size-adjust: auto;
 }
-#body1 h3 {
+#body2-1 {
+    height: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+#body2-2 {
+    height: 350px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;        
+    overflow: scroll;
+}
+#body2-2 h2 {
     font-family: arial;
     text-align: center;
     padding: 10px;
-    line-height: 1.7;
-    margin-top: 20px;
-    font-size: 20px;
-}
-#body2 h2 {
-    font-family: arial;
-    text-align: center;
-    padding: 10px;
-    line-height: 1.7;
+    line-height: 2px;
     font-size: 30px;
 }
-#body2 h3 {
+#body2-2 h3 {
     font-family: arial;
     text-align: center;
     padding: 10px;
@@ -143,32 +163,30 @@ body {
     font-size: 20px;
 }
 #body3 {
-    height: 400px;
-    background-color: white;
-    margin-top:0 auto;    
+    height: 350px;      
+    overflow: scroll;      
 }
 #body3 video {
-    position: center;
-    height: 350px;
-    margin-top: 150px;
-    margin-left: 350px;
+  
+    display: block;
+    width: auto;
+    margin:0px auto;
     z-index: -5;
-}
-#body4-footer {
-    height: 350px;
-    width: 100%;
-    background-color: skyblue;
-    margin-top: 150px;
 }
 
 /**************** begining footer setting ***************************/
-#footer-menubox, #social-icon, #register {
-    display: inline-block;    
+#body4-footer {
+    width: 100%;
+    margin: 100px 0px 0px auto;
+    background-color: grey;
+    text-align: center;
+    opacity: 0.8;
 }
-#footer-menubox {
-    width: auto;
-    height: auto;
-    margin: 40px 0px 0px 220px;    
+#footer-menubox, #register-box {
+    display: inline-block;       
+    width: auto;  
+    padding: 30px 30px;
+    margin: auto 30px;
 }
 #footer-menubox ul li {
     list-style: none;
@@ -177,7 +195,6 @@ body {
     padding: 10px;
     font-size: 18px;
     font-family: Arial;
-    text-align: left;
     color: black;
     font-weight: bold;
     line-height: 35px;
@@ -186,10 +203,26 @@ body {
 #footer-menubox ul li a:hover {
     background-color: white;
 }
+
+#register-box h3 {
+    font-family: arial;
+    font-size: 20px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+}
+#register-box label {
+    font-family: arial;
+    font-size: 18px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 19px;
+}
 #social-icon {
-    width: auto;
-    height: auto;    
-    margin-left: 100px;   
+    width: auto;  
+    margin: 0 auto;
+    display: block; 
 }
 #social-icon ul {
     margin: 0px;
@@ -210,26 +243,5 @@ body {
 }
 #social-icon ul li a i {
     line-height: 50px;
-}
-#register {
-    width: 200px;
-    height: auto;
-    margin-left: 100px;
-}
-#register h3 {
-    font-family: arial;
-    font-size: 20px; 
-    color: black; 
-    font-weight: bold;
-    line-height: 30px;
-    text-align: left;
-}
-#register label {
-    font-family: arial;
-    font-size: 18px; 
-    color: black; 
-    font-weight: bold;
-    line-height: 19px;
-    text-align: left;
 }
 /********************* finishing footer setting ************************/
