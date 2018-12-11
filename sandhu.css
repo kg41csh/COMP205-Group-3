@@ -7,7 +7,13 @@
     body
 {
     background-color:white;
-    height:6000px;
+    height:4000px;
+    background-image:url("tealeaves.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top;
+    position: absolute;
+   
 }
 #main_and_top_div {
     height: 150px;
