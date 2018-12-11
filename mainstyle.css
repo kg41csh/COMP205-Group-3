@@ -212,7 +212,9 @@ body {
 #social-icon {
     width: auto;  
     margin: 0 auto;
-    display: block; 
+    display: block;     
+    word-spacing: 30px;
+    padding-bottom: 30px;
 }
 #social-icon ul {
     margin: 0px;
