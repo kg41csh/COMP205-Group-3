@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 25%;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 #top_ads_box {
     background-color: black;
@@ -103,7 +103,7 @@ body {
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;    
-    overflow: scroll;
+    overflow: auto;
 }
 #body1-1 img, #body2-1 img {
     display: block;
@@ -139,7 +139,7 @@ body {
     margin: 0 auto;
     text-align: center;
     padding-top: 70px;        
-    overflow: scroll;
+    overflow: auto;
 }
 #body2-2 h2 {
     text-align: center;
@@ -155,7 +155,7 @@ body {
 }
 #body3 {
     height: 350px;      
-    overflow: scroll;      
+    overflow: auto;      
 }
 #body3 video {
   
@@ -196,7 +196,7 @@ body {
 }
 #register-box h3 {
     font-family: arial;
-    font-size: 20px; 
+    font-size: 18px; 
     color: black; 
     font-weight: bold;
     line-height: 30px;
