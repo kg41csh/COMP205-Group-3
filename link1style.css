@@ -197,7 +197,7 @@ body {
     font-size: 18px; 
     color: black; 
     font-weight: bold;
-    line-height: 30px;
+    line-height: 15px;
     text-align: left;
 }
 #register-box label {
@@ -205,7 +205,26 @@ body {
     font-size: 18px; 
     color: black; 
     font-weight: bold;
-    line-height: 19px;
+    line-height: 13px;
+}
+.submit-button {
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 15%;
+    background-color: skyblue;
+}
+.submit-button:hover {
+    background-color: black;
+    color: white;
+}
+.holder {
+    height: 20px;
+    background-color: pink;
+}
+.holder:hover {
+    background-color: skyblue;
 }
 #social-icon {
     width: auto;  
@@ -227,6 +246,9 @@ body {
     border-radius: 100%;
     background: white;
 }
+#social-icon ul li:hover {
+    background-color: rgb(241, 166, 166);
+}
 #social-icon ul li a {
     color: blue;
     font-size: 25px;
@@ -234,4 +256,5 @@ body {
 #social-icon ul li a i {
     line-height: 50px;
 }
+
 /********************* finishing footer setting ************************/
