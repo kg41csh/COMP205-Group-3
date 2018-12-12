@@ -12,37 +12,27 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    
+
     
 }
     
 
     
 
+/****************************** finishing body setting ************************8**/
+
+/***************************** begining main header setting *************************/
 #main_and_top_div {
     height: 150px;
     background-color: whitesmoke;
     position: fixed;
     top: 0;
     width: 100%;
-}
-#main_and_top_div img {
-    height : 150px;
-    width : auto;
-    margin-top: 2px;
-    padding-left: 80px;
-    position: absolute;
-    top: 0px;
-    z-index: -1;
-    background-image: url ('organic1.jpg');
-    background-size: cover;
-    background-position: center;    
-} 
-#main_and_top_div h1 {
-    font-size: 40px;
-    font-family: Apple Chancery;
-    margin-top: 40px;
-    text-align: center;
+    background-image: url('./organic1.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
+    opacity: 0.8;
 }
 #top_ads_box {
     background-color: black;
@@ -60,6 +50,11 @@ body{
     word-spacing: 3px;  
     text-shadow: 2px 2px 2px rgb(252, 2, 2);
 }
+#main_and_top_div h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
 #menu_box {
     height:40px;
     background-color: black;
@@ -69,7 +64,6 @@ body{
     top: 50px;
     width: 100%;
     padding-left: 0px;
-    opacity: 0.9;
     border: 1px solid white;
 }
 #menu_box ul {
@@ -105,7 +99,9 @@ body{
 #menu_box ul li:hover ul li {
     display: block;
 }
+/*********************** finishing main header setting ************************/
 
+/*********************** begining body setting ************************/
 #pic
 
 
@@ -171,79 +167,98 @@ h2{
     margin-left:350px;
   }
       
-#body4-footer {
-    height: 350px;
-    width: 100%;
-    background-color: skyblue;
-    margin-top: 150px;
-}
-#footer-menubox, #social-icon, #register {
-    display: inline-block;    
-}
-#footer-menubox {
-    width: auto;
-    height: auto;
-    margin: 40px 0px 0px 220px;    
-}
-#footer-menubox ul li {
-    list-style: none;
-}
-#footer-menubox ul li a {
-    padding: 10px;
-    font-size: 18px;
-    font-family: Arial;
-    text-align: left;
-    color: black;
-    font-weight: bold;
-    line-height: 35px;
-    text-decoration: none;
-}
-#footer-menubox ul li a:hover {
-    background-color: white;
-}
-#social-icon {
-    width: auto;
-    height: auto;    
-    margin-left: 100px;   
-}
-#social-icon ul {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-#social-icon ul li {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: 0px 10px;
-    border-radius: 100%;
-    background: white;
-}
-#social-icon ul li a {
-    color: blue;
-    font-size: 25px;
-}
-#social-icon ul li a i {
-    line-height: 50px;
-}
-#register {
-    width: 200px;
-    height: auto;
-    margin-left: 100px;
-}
-#register h3 {
-    font-family: arial;
-    font-size: 20px; 
-    color: black; 
-    font-weight: bold;
-    line-height: 30px;
-    text-align: left;
-}
-#register label {
-    font-family: arial;
-    font-size: 18px; 
-    color: black; 
-    font-weight: bold;
-    line-height: 19px;
-    text-align: left;
-}
+ /**************** begining footer setting ***************************/
+  #body4-footer {
+      width: 100%;
+      margin: 100px 0px 0px auto;
+      background-color: rgb(190, 188, 188);
+      text-align: center;
+      z-index: -4;
+  }
+  #footer-menubox, #register-box {
+      display: inline-block;       
+      width: auto;  
+      padding: 30px 30px;
+      margin: auto 30px;
+  }
+  #footer-menubox ul li {
+      list-style: none;
+  }
+  #footer-menubox ul li a {
+      padding: 10px;
+      font-size: 18px;
+      font-family: Arial;
+      color: black;
+      font-weight: bold;
+      line-height: 35px;
+      text-decoration: none;
+  }
+  #footer-menubox ul li a:hover {
+      background-color: white;
+  }
+  #register-box h3 {
+      font-family: arial;
+      font-size: 18px; 
+      color: black; 
+      font-weight: bold;
+      line-height: 15px;
+      text-align: left;
+  }
+  #register-box label {
+      font-family: arial;
+      font-size: 18px; 
+      color: black; 
+      font-weight: bold;
+      line-height: 13px;
+  }
+  .submit-button {
+      width: 90px;
+      height: 25px;
+      font-weight: bold;
+      font-size: 17px;
+      border-radius: 15%;
+      background-color: skyblue;
+  }
+  .submit-button:hover {
+      background-color: black;
+      color: white;
+  }
+  .holder {
+      height: 20px;
+      background-color: pink;
+  }
+  .holder:hover {
+      background-color: skyblue;
+  }
+  #social-icon {
+      width: auto;  
+      margin: 0 auto;
+      display: block; 
+      word-spacing: 30px;
+      padding-bottom: 30px;
+  }
+  #social-icon ul {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+  }
+  #social-icon ul li {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin: 0px 10px;
+      border-radius: 100%;
+      background: white;
+  }
+  #social-icon ul li:hover {
+      background-color: rgb(241, 166, 166);
+  }
+  #social-icon ul li a {
+      color: blue;
+      font-size: 25px;
+  }
+  #social-icon ul li a i {
+      line-height: 50px;
+  }
+  
+  /********************* finishing footer setting ************************/
