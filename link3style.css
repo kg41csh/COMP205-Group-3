@@ -89,8 +89,29 @@ body {
 /*********************** finishing main header setting ************************/
 
 /*********************** begining body setting ************************/
+#teaware{
+    background-image:url("plates.jpg");
 
-
+     height:300px;
+     color:black;
+     margin-top:150px;
+     background-size:cover;
+     
+       background-position:top;
+     background-repeat:no-repeat;
+     
+     text-align:center;
+     font-style:bold;
+     font-size:90px;
+     font-weight: bold;
+     padding-top:150px;
+     
+     
+     }
+#t{
+    font-size:20px;
+    text-align:center;
+}
 
 
 
