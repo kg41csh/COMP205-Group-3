@@ -90,7 +90,7 @@ body {
 
 /*********************** begining body setting ************************/
 #teaware{
-    background-image:url("plates.jpg");
+    background-image:url("teaware.jpg");
 
      height:300px;
      color:black;
@@ -104,7 +104,8 @@ body {
      font-style:bold;
      font-size:90px;
      font-weight: bold;
-     padding-top:150px;
+     padding-top:90px;
+     padding-bottom:150px;
      
      
      }
@@ -163,7 +164,7 @@ body {
 
 .g
 {
-    background-image: url("plates.jpg");
+    background-image: url("pots.jpg");
     background-size:cover;
     background-position: center;
     width:250px;
@@ -179,7 +180,7 @@ body {
 }
 .o
 {
-    background-image: url("plates.jpg");
+    background-image: url("teacups.jpg");
     background-size:cover;
     background-position: center;
     width:250px;
@@ -195,7 +196,7 @@ body {
 }
 .i
 {
-    background-image: url("plates.jpg");
+    background-image: url("storage.jpg");
     background-size:cover;
     background-position: center;
     width:250px;
@@ -211,7 +212,7 @@ body {
 }
 .p
 {
-    background-image: url("plates.jpg");
+    background-image: url("sugar.jpg");
     background-size:cover;
     background-position: center;
     width:250px;
