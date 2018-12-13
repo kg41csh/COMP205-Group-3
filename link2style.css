@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-
+  
     
 }
     
@@ -32,6 +32,7 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 25%;
+    z-index:40;
    
 }
 #top_ads_box {
@@ -130,6 +131,7 @@ p{
 }
 .vid {
     margin-left:350px;
+  
     
 
   
