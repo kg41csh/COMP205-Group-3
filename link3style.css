@@ -123,44 +123,44 @@ body {
 
     background-color:rgb(250, 173, 209);
     width:500px;
-    margin-left:320px;
+    margin-left:600px;
     padding-left: 200px;
     padding-bottom:20px;
     padding-top:20px;
 }
 
-.m {
-    
-    margin-top:15px;
 
-   
-    font-size: 25px;
-    font-display: center;
-    font-style:bold;
-    align:left;
-    margin-left: 170px;
-}
 .u{
     background-image: url("cups.jpeg");
     background-size:cover;
     background-position: center;
     width:250px;
     height:200px;
-    margin-left:100px;
-    margin-top:90px;
-    border-radius: 40px;
-}
-.o {
+   border-radius: 40px;
+   float:left;
+ 
+  
     
-    margin-top:15px;
-
-   
-    font-size: 25px;
-    font-display: center;
-    font-style:bold;
-    align:left;
-    margin-left: 170px;
 }
+.m{
+    color:black;
+    font-style:bold;
+    font-size:16px;
+    margin-top:200px;
+    margin-left:90px;
+    
+}
+.bigbox
+{
+    height:300px;
+    width:1400px;
+    background-color:white;
+    padding-top:30px;
+    margin-top:90px;
+    margin-left:300px;
+    
+}
+
 .g
 {
     background-image: url("plates.jpg");
@@ -168,10 +168,91 @@ body {
     background-position: center;
     width:250px;
     height:200px;
-    margin-left:100px;
-    margin-top:90px;
     border-radius: 40px;
-    display:flex;
+    float:left;
+   margin-left: 30px;
+ 
+   
+    
+   
+  
+}
+.o
+{
+    background-image: url("plates.jpg");
+    background-size:cover;
+    background-position: center;
+    width:250px;
+    height:200px;
+    border-radius: 40px;
+    float:left;
+   margin-left: 30px;
+ 
+   
+    
+   
+  
+}
+.i
+{
+    background-image: url("plates.jpg");
+    background-size:cover;
+    background-position: center;
+    width:250px;
+    height:200px;
+    border-radius: 40px;
+    float:left;
+    margin-left: 30px;
+     
+    
+    
+   
+  
+}
+.p
+{
+    background-image: url("plates.jpg");
+    background-size:cover;
+    background-position: center;
+    width:250px;
+    height:200px;
+    border-radius: 40px;
+    float:left;
+   margin-left: 30px;
+ 
+   
+    
+   
+  
+}
+.t{
+    color:black;
+    font-style:bold;
+    font-size:16px;
+    margin-top:200px;
+    margin-left:80px;
+    
+}.n{
+    color:black;
+    font-style:bold;
+    font-size:16px;
+    margin-top:200px;
+    margin-left:80px;
+    
+}.k{
+    color:black;
+    font-style:bold;
+    font-size:16px;
+    margin-top:200px;
+    margin-left:90px;
+    
+}.c{
+    color:black;
+    font-style:bold;
+    font-size:16px;
+    margin-top:200px;
+    margin-left:80px;
+    
 }
 
 /**************** begining footer setting ***************************/
