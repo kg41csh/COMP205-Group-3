@@ -6,15 +6,12 @@
 
   
 body{
-    height:200%;
+    height:100%;
     
     background-image: url("leaves.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:top;
-    
-
-    background-attachment: fixed;
+    background-position: center;
 
     
 }
@@ -35,7 +32,7 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 25%;
-
+   
 }
 #top_ads_box {
     background-color: black;
@@ -79,7 +76,7 @@ body{
     background-color: black;
     height: 40px;
     width: 200px;
-    opacity: 0.9;
+   
     line-height: 40px;
     text-align: center;
     font-size: 18px;    
