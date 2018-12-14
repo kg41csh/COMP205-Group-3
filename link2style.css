@@ -6,8 +6,7 @@
 
   
 body{
-    height:100%;
-    
+    height:100%;    
     background-image: url("leaves.jpg");
     background-repeat: no-repeat;
     background-size:cover;
@@ -100,63 +99,53 @@ body{
 /*********************** finishing main header setting ************************/
 
 /*********************** begining body setting ************************/
-#pic {
-    padding-top: 0px;
-}
 
 
-h1{
+#pic h1{
     color:black;
     font-style:bold;
-    margin-top:200px;
+    margin-top:250px;
     margin-left:350px;
     font-size:50px;
 }
 
 p{
     color:black;
-    font-size:23px;
-    text-align:justify;
-  
+    font-size:21px;
+    text-align:justify;  
     padding-right:600px;
     margin-left:400px;
-    padding-left:200px;
-   
+    padding-left:200px;   
 }
-
 #more {
     display: none;
-    
 }
 .vid {
     margin-left:350px;
 }
 button {
-    width: 130px;
-    height: 40px;
+    width: 120px;
+    height: 30px;
     background-color: white;
     color: black;
-    border-radius: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }    
 button:hover {
     background-color: black;
     color: white;
 }
-
 #link-2 h1{
     color:black;
     font-size:50px;
     font-style:bold;
     margin-left:350px;
-
 }
 h2{
     color:black;
     font-size:30px;
     font-style:bold;
     margin-left:350px;
-
 }
   p{
       color:black;
