@@ -148,6 +148,7 @@ p{
     background-color: rgb(190, 188, 188);
     text-align: center;
     z-index: -4;
+    padding-right:200px;
 }
 #footer-menubox, #register-box {
     display: inline-block;       

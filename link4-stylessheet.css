@@ -88,35 +88,25 @@ body {
     display: block;
 }
 /*********************** finishing main header setting ************************/
-
 .price{
 
-    position: relative;
-    left: 750px;
+    
+
+   margin-left: 750px;
+
     bottom: 400px;
     color: brown;
-    font-size:25px;
-    width: 600px;        
-    line-height: 30px;
-}
-p.price {
-    color: black;
-}
-.aa1{
-    height: 400px;
-    width: 500px;
-    border: 1px solid black;
-    margin-left: 70px;
-    margin-top: 30px;
-}
-h2.price {
-    font-weight: bold;
-    font-size: 30px;
-}
-h3 {
-    margin-left: 70px;
-}
+    font-size:20px;
+ 
 
+}
+.aa1 h1{
+
+    height: 100px;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 90px;
+}
 
 /**************** begining footer setting ***************************/
 #body4-footer {
