@@ -32,8 +32,7 @@ body{
     background-repeat: no-repeat;
     background-position: left;
     background-size: 25%;
-    z-index:40;
-   
+    opacity: 0.8;
 }
 #top_ads_box {
     background-color: black;
@@ -66,7 +65,6 @@ body{
     width: 100%;
     padding-left: 0px;
     border: 1px solid white;
-    opacity:0.9;
 }
 #menu_box ul {
     margin: 0px;
@@ -78,7 +76,7 @@ body{
     background-color: black;
     height: 40px;
     width: 200px;
-   
+    opacity: 0.9;
     line-height: 40px;
     text-align: center;
     font-size: 18px;    
@@ -171,97 +169,96 @@ h2{
   }
       
  /**************** begining footer setting ***************************/
-  #body4-footer {
-      width: 100%;
-      margin: 100px 0px 0px auto;
-      background-color: rgb(190, 188, 188);
-      text-align: center;
-      z-index: -4;
-  }
-  #footer-menubox, #register-box {
-      display: inline-block;       
-      width: auto;  
-      padding: 30px 30px;
-      margin: auto 30px;
-  }
-  #footer-menubox ul li {
-      list-style: none;
-  }
-  #footer-menubox ul li a {
-      padding: 10px;
-      font-size: 18px;
-      font-family: Arial;
-      color: black;
-      font-weight: bold;
-      line-height: 35px;
-      text-decoration: none;
-  }
-  #footer-menubox ul li a:hover {
-      background-color: white;
-  }
-  #register-box h3 {
-      font-family: arial;
-      font-size: 18px; 
-      color: black; 
-      font-weight: bold;
-      line-height: 15px;
-      text-align: left;
-  }
-  #register-box label {
-      font-family: arial;
-      font-size: 18px; 
-      color: black; 
-      font-weight: bold;
-      line-height: 13px;
-  }
-  .submit-button {
-      width: 90px;
-      height: 25px;
-      font-weight: bold;
-      font-size: 17px;
-      border-radius: 15%;
-      background-color: skyblue;
-  }
-  .submit-button:hover {
-      background-color: black;
-      color: white;
-  }
-  .holder {
-      height: 20px;
-      background-color: pink;
-  }
-  .holder:hover {
-      background-color: skyblue;
-  }
-  #social-icon {
-      width: auto;  
-      margin: 0 auto;
-      display: block; 
-      word-spacing: 30px;
-      padding-bottom: 30px;
-  }
-  #social-icon ul {
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
-  }
-  #social-icon ul li {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      margin: 0px 10px;
-      border-radius: 100%;
-      background: white;
-  }
-  #social-icon ul li:hover {
-      background-color: rgb(241, 166, 166);
-  }
-  #social-icon ul li a {
-      color: blue;
-      font-size: 25px;
-  }
-  #social-icon ul li a i {
-      line-height: 50px;
-  }
-  
-  /********************* finishing footer setting ************************/
+#body4-footer {
+    width: 100%;
+    margin: 100px 0px 0px auto;
+    background-color: rgb(190, 188, 188);
+    text-align: center;
+    z-index: -4;
+}
+#footer-menubox, #register-box {
+    display: inline-block;       
+    width: auto;  
+    padding: 30px 30px;
+    margin: auto 30px;
+}
+#footer-menubox ul li {
+    list-style: none;
+}
+#footer-menubox ul li a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial;
+    color: black;
+    font-weight: bold;
+    line-height: 36px;
+    text-decoration: none;
+}
+#footer-menubox ul li a:hover {
+    background-color: white;
+}
+#register-box h3 {
+    font-family: arial;
+    font-size: 18px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 15px;
+    text-align: left;
+}
+#register-box label {
+    font-family: arial;
+    font-size: 18px; 
+    color: black; 
+    font-weight: bold;
+    line-height: 13px;
+}
+.submit-button {
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 17px;    
+    border-radius: 15%;
+    background-color: skyblue;
+}
+.submit-button:hover {
+    background-color: black;
+    color: white;
+}
+.holder {
+    height: 20px;
+    background-color: pink;
+}
+.holder:hover {
+    background-color: skyblue;
+}
+#social-icon {
+    width: auto;  
+    margin: 0 auto;
+    display: block;     
+    word-spacing: 30px;
+    padding-bottom: 30px;
+}
+#social-icon ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+#social-icon ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: white;
+}
+#social-icon ul li:hover {
+    background-color: rgb(241, 166, 166);
+}
+#social-icon ul li a {
+    color: blue;
+    font-size: 25px;
+}
+#social-icon ul li a i {
+    line-height: 50px;
+}
+/********************* finishing footer setting ************************/

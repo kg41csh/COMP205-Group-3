@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 25%;
+    opacity: 0.8;
 }
 #top_ads_box {
     background-color: black;
@@ -147,7 +148,6 @@ p{
     background-color: rgb(190, 188, 188);
     text-align: center;
     z-index: -4;
-    padding-right:200px;
 }
 #footer-menubox, #register-box {
     display: inline-block;       
@@ -164,7 +164,7 @@ p{
     font-family: Arial;
     color: black;
     font-weight: bold;
-    line-height: 35px;
+    line-height: 36px;
     text-decoration: none;
 }
 #footer-menubox ul li a:hover {
@@ -189,7 +189,7 @@ p{
     width: 90px;
     height: 25px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 17px;    
     border-radius: 15%;
     background-color: skyblue;
 }
@@ -207,7 +207,7 @@ p{
 #social-icon {
     width: auto;  
     margin: 0 auto;
-    display: block; 
+    display: block;     
     word-spacing: 30px;
     padding-bottom: 30px;
 }
@@ -234,5 +234,4 @@ p{
 #social-icon ul li a i {
     line-height: 50px;
 }
-
 /********************* finishing footer setting ************************/
